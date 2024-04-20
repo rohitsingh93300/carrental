@@ -10,7 +10,7 @@ import { fadeIn } from "../../../variants"
 
 export default function Brand() {
   return (
-    <section className="xl:pt-16 xl:h-[200px] bg-white flex flex-col justify-center">
+    <section className="xl:pt-16 xl:h-[200px] bg-white flex flex-col justify-center" id='cars'>
       <div className="container mx-auto">
         {/* brand wrapper */}
         <div className="grid grid-cols-3 gap-6 place-items-center xl:flex xl:flex-wrap xl:gap-x-6 xl:justify-between">
